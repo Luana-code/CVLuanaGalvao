@@ -1,0 +1,13 @@
+body{
+  background-color: #FEE3D9;
+}
+
+.grand-titre {
+  color:#D07C5D;
+}
+              
+.contact{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}

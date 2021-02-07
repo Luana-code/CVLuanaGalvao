@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px){
+  body{
+  background-color: #ECE0FC;
+}
+
+.grand-titre {
+  color:#805CB2;
+}
+
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards2 {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+              
+.contact{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel-image{
+  height: 400px;
+  width: 100%;
+}
+}

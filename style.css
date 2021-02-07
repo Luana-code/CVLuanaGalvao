@@ -1,50 +1,5 @@
-body{
-  background-color: #FEE3D9;
-}
 
-.grand-titre {
-  color:#D07C5D;
-}
-
-.cards {
-  flex-wrap: wrap;
-  padding: 15px 0;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.cards2 {
-  flex-wrap: wrap;
-  padding: 15px 0;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.card-element {
-  width: 30%;
-  background-size: cover;
-  background-position: center;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-              
-.contact{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.carousel-image{
-  height: 400px;
-  width: 100%;
-}
+@import url('composants/cards.css');
+@import url('composants/body.css');
+@import url('composants/caroussel.css');
+@import url('composants/responsive.css');
